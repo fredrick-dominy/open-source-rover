@@ -74,6 +74,8 @@ On the **bottom** of the board, solder the 6 Position top entry terminal
    of RoboClaw outlines (see images below). These terminals will run battery
    power and +/- motor signals to the RoboClaw motor controllers from the PCB.
 
+![assembly1](../../images/pcb_assembly/assembly/assembly_2.png)
+![assembly2](../../images/pcb_assembly/assembly/bottom_term.png)
 | <img src="../../images/pcb_assembly/assembly/assembly_2.png" height="300"> <img src="../../images/pcb_assembly/assembly/bottom_term.png" height="300"> |
 |:-:|
 | Figure 1: Assembly Step 2 |

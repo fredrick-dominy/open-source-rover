@@ -12,13 +12,13 @@ First, it is important to examine the components we will use in the rover and un
 
 
 
-<img src="../images/electronics/power_diagram.png" width="100%">
+![power diagram](../images/electronics/power_diagram.png)
 
 **Figure 1. Electrical Power Overview**
 
 One important thing to note from the above is that there are multiple different voltages in the system. There is the unregulated voltage coming from the battery, 5V regulated coming from the voltage regulator, and the 12V motor voltage which is sent from the motor controllers to the motors.
 
-<img src="../images/electronics/data_comm_diagram.png" width="100%">
+![data communication diagram](../images/electronics/data_comm_diagram.png)
 
   **Figure 2. Electrical Data Overview**
 
@@ -113,9 +113,9 @@ Using the Tamiya connectors, connect the battery to the switch and then the volt
 
 Item | Ref | Qty | Image |Item | Ref | Qty | Image |
 ---- | --- | --- | ----- |---- | --- | --- | ----- |
-Battery | E36 | 1 | <p align="center"> <img src="../images/components/electronics/E36.png" width="25%"> </p> |Tamiya Connectors| E35 | 1 | <p align="center"> <img src="../images/components/electronics/E35.png"> </p>
-16 AWG Wire (Black) | X2 | 1 | <p align="center"> <img src="../images/components/wiring/X2.png" width="25%"> </p> |16 AWG Wire (Red) | X1 | 1 |  <p align="center"> <img src="../images/components/wiring/X1.png" > </p>
-Battery Charger | E41 | 1 | <p align="center"> <img src="../images/components/electronics/E41.png" width="25%"> </p>
+Battery | E36 | 1 | <p align="center"> ![electronics - E36](../images/components/electronics/E36.png) </p> |Tamiya Connectors| E35 | 1 | <p align="center"> ![electronics - E35](../images/components/electronics/E35.png) </p>
+16 AWG Wire (Black) | X2 | 1 | <p align="center"> ![wiring - X2](../images/components/wiring/X2.png) </p> |16 AWG Wire (Red) | X1 | 1 |  <p align="center"> ![wiring - X1](../images/components/wiring/X1.png) </p>
+Battery Charger | E41 | 1 | <p align="center"> ![electronics - E41](../images/components/electronics/E41.png)</p>
 
 ![Battery and board connections](../images/electronics/battery_wiring.png)
 
@@ -126,7 +126,7 @@ Battery Charger | E41 | 1 | <p align="center"> <img src="../images/components/el
 **Table 4. Necessary Parts**
 Item | Ref | Qty | Image |Item | Ref | Qty | Image |
 ---- | --- | --- | ----- |---- | --- | --- | ----- |
-LED Screen/Assembled Head | NA | 1 | <p align="center"> <img src="../images/components/electronics/E37.png" width="25%"> </p> |4 Pin Molex Connector | E50 | 1 | <p align="center"> <img src="../images/components/electronics/E50.png"> </p>
+LED Screen/Assembled Head | NA | 1 | <p align="center"> ![electronics - E37](../images/components/electronics/E37.png) </p> |4 Pin Molex Connector | E50 | 1 | <p align="center"> ![electronics - E50](../images/components/electronics/E50.png) </p>
 
 Using The 4 Pin molex Cable that comes with the LED matrix, connect the LED matrix to the 5V output from the Arduino PCB mounted inside the Head assembly.
 
@@ -141,9 +141,9 @@ Next, we will next plug in all the cables that allow the various devices to comm
 
 Item | Ref | Qty | Image |Item | Ref | Qty | Image 
 ---- | --- | --- | ----- |---- | --- | --- | ----- 
-Rectangular 6P 1x6 Jumper Cable | E26 | 1 | <p align="center"> <img src="../images/components/electronics/E26.png" width="25%"> </p>| USB Power Cable | E28 | 1| <p align="center"> <img src="../images/components/electronics/E28.png"> </p>
-Rectangular 40P 2x20 Ribbon Cable | E29 | 1 | <p align="center"> <img src="../images/components/electronics/E29.png" width="25%"> </p>| Rectangular 16P Ribbon Cable | E30 | 1| <p align="center"> <img src="../images/components/electronics/E30.png"> </p>
- USB to TTL Serial Adapter | E48 | 1| <p align="center"> <img src="../images/components/electronics/E48.png" width="25%"> </p>
+Rectangular 6P 1x6 Jumper Cable | E26 | 1 | <p align="center"> ![electronics - E26](../images/components/electronics/E26.png) </p>| USB Power Cable | E28 | 1| <p align="center"> ![electronics - E28](../images/components/electronics/E28.png) </p>
+Rectangular 40P 2x20 Ribbon Cable | E29 | 1 | <p align="center"> ![electronics - E29](../images/components/electronics/E29.png) </p>| Rectangular 16P Ribbon Cable | E30 | 1| <p align="center"> ![electronics - E30](../images/components/electronics/E30.png) </p>
+ USB to TTL Serial Adapter | E48 | 1| <p align="center"> ![electronics - E48](../images/components/electronics/E48.png) </p>
  
 
  
@@ -186,11 +186,11 @@ An example of how we routed our wiring is shown by Figure 6. It is important to 
 
 Item | Ref | Qty | Image |Item | Ref | Qty | Image
 ---- | --- | --- | ----- |---- | --- | --- | ----- 
-20AWG Wire (Black) | X2 | N/A | <p align="center"> <img src="../images/components/wiring/X2.png" width="25%"> </p> | 20AWG Wire (Red) | X1 | N/A | <p align="center"> <img src="../images/components/wiring/X1.png"> </p> 
-24AWG Wire (White) | X3 | N/A | <p align="center"> <img src="../images/components/wiring/X3.png" width="25%"> </p> | 24AWG Wire (Blue) | X4 | N/A | <p align="center"> <img src="../images/components/wiring/X4.png" > </p> 
-24AWG Wire (Yellow) | X5 | N/A | <p align="center"> <img src="../images/components/wiring/X5.png" width="25%"> </p> | 24AWG Wire (Green) | X6 | N/A | <p align="center"> <img src="../images/components/wiring/X6.png" > </p> 
-3 Pin Micro Connector | E40 | 4 | <p align="center"> <img src="../images/components/electronics/E40.png" width="25%"> </p>| Wire Braid | E42 | N/A | <p align="center"> <img src="../images/components/electronics/E42.png" > </p>
-Heat Shrink Tubing | E44 | 1 | <p align="center"> <img src="../images/components/electronics/E44.png" width="25%"> </p>
+20AWG Wire (Black) | X2 | N/A | <p align="center"> ![wiring - X2](../images/components/wiring/X2.png) </p> | 20AWG Wire (Red) | X1 | N/A | <p align="center"> ![wiring - X1](../images/components/wiring/X1.png) </p> 
+24AWG Wire (White) | X3 | N/A | <p align="center"> ![wiring - X3](../images/components/wiring/X3.png) </p> | 24AWG Wire (Blue) | X4 | N/A | <p align="center"> ![wiring - X4](../images/components/wiring/X4.png) </p> 
+24AWG Wire (Yellow) | X5 | N/A | <p align="center"> ![wiring - X5](../images/components/wiring/X5.png) </p> | 24AWG Wire (Green) | X6 | N/A | <p align="center"> ![wiring - X6](../images/components/wiring/X6.png) </p> 
+3 Pin Micro Connector | E40 | 4 | <p align="center"> ![electronics - E40](../images/components/electronics/E40.png) </p>| Wire Braid | E42 | N/A | <p align="center"> ![electronics - E42](../images/components/electronics/E42.png) </p>
+Heat Shrink Tubing | E44 | 1 | <p align="center"> ![electronics - E44](../images/components/electronics/E44.png)</p>
 
 
 The below table and figure shows an approximate amount of length of wire you will need to reach each of the motors, based on how we think is best to route the wiring through the suspension system. Cut these lengths and strip both ends of the wires.

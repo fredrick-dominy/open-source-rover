@@ -9,3 +9,6 @@
 *.out
 *.toc
 .DS_Store
+
+.idea
+.idea/*

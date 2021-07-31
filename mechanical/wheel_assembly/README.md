@@ -2,7 +2,7 @@
 
 The wheel assembly attaches the wheels to the motors and mounts the motors to the rest of the rocker-bogie suspension system that makes up the robot chassis.
 
-![Wheels picture](/images/wheels/wheels_title.png)
+![Wheels picture](../../images/wheels/wheels_title.png)
 Final result.
 
 ## 1. Features
@@ -36,16 +36,21 @@ None
 
 | item                              | ref | qty |                                                                 img |
 | --------------------------------- | --- | --- | ------------------------------------------------------------------: |
-| wheels                            | S30 | 6   | <img src="/images/components/structural/S30.png" height="100"> |
-| hand drill or drill press         | D3  |     |       <img src="/images/components/tools/D3.png" height="100"> |
-| center punch or starter drill bit | D7  |     |      <img src="/images/components/tools/D7.png" height="100"> |
-| drill bit #23                     | D6  |     |      <img src="/images/components/tools/D6.png" height="100"> |
+| wheels                            | S30 | 6   |   ![wheel](../../images/components/structural/S30.png) /
+| hand drill or drill press         | D3  |     |     ![drill](../../images/components/tools/D3.png)   /
+| center punch or starter drill bit | D7  |     |     ![drill](../../images/components/tools/D7.png)   /
+| drill bit #23                      | D6  |    |     ![drill](../../images/components/tools/D6.png)   /
 
 Drill holes in the wheels as shown in Figure 1 using the center drill and drill \#23.
 
-> The wheel is normally meant to be mounted using one bolt through the middle of the rim. This will not work well in our case as the rover sees very high torque at the wheel and the one-bolt system would be difficult to attach to any part of our system without the wheel slipping. To attach more firmly, we will drill two holes on either side of the original hole where we will mount the motor hub clamp as shown in Figure 1
+> The wheel is normally meant to be mounted using one bolt through the middle of the rim. 
+> This will not work well in our case as the rover sees very high torque at the wheel and 
+> the one-bolt system would be difficult to attach to any part of our system without the wheel slipping. 
+> To attach more firmly, we will drill two holes on either side of the original hole where we 
+> will mount the motor hub clamp as shown in Figure 1
 
-| <img src="/images/wheels/wheel_drill.png" width="400"> <img src="/images/wheels/wheel_aligned.png" width="400"> |
+---
+| ![wheel drill](../../images/wheels/wheel_drill.png)  ![wheel aligned](../../images/wheels/wheel_aligned.png) |
 |:-:|
 | Figure 1: Drilling the wheels |
 
@@ -59,17 +64,21 @@ Next, we will build the wheel assemblies which are divided into the middle wheel
 
 | item           | ref  | qty | img                                                                   |     | item               | ref | qty | img                                                                   |
 | -------------- | ---- | --- | --------------------------------------------------------------------- | --- | ------------------ | --- | --- | --------------------------------------------------------------------- |
-| channel        | S45  | 6   | <image src="/images/components/structural/S45.png" width="100"> |     | drive motor        | E49 | 6   | <image src="/images/components/electronics/E49.png" width="100"> |
-| 6mm D-hub      | S49  | 6   | <image src="/images/components/structural/S49.png" width="100"> |     | M4 screws          | B15 | 48  | <image src="/images/components/screws/B15.png" width="100">     |
-| clamping mount | S47  | 6   | <image src="/images/components/structural/S47.png" width="100"> |     | allen key set      | D2  |     | <image src="/images/components/tools/D2.png" width="100">       |
-| threaded plate | S46  |     | <image src="/images/components/structural/S46.png" width="100"> |     | pattern adaptor    | S48 | 4   | <image src="/images/components/structural/S48.png" width="100"> |
+| channel        | S45  | 6   | ![channel](../../images/components/structural/S45.png) |     | drive motor        | E49 | 6   | ![drive motor](../../images/components/electronics/E49.png) |
+| 6mm D-hub      | S49  | 6   | ![6mm D-hub](../../images/components/structural/S49.png)|     | M4 screws          | B15 | 48  | ![M4 screws ](../../images/components/screws/B15.png)     |
+| clamping mount | S47  | 6   | ![clamping mount](../../images/components/structural/S47.png) |     | allen key set      | D2  |     |![allen key set](../../images/components/tools/D2.png) |
+| threaded plate | S46  |     | ![threaded plate](../../images/components/structural/S46.png) |     | pattern adaptor    | S48 | 4   | ![pattern adaptor](../../images/components/structural/S48.png) |
 
 
 #### 4.1.1 Prepare the motor channel
 
 We will start by attaching pattern adaptors to connect the Servocity brackets to the bigger GoBilda brackets. Connect the pattern adaptor **S48** to the threaded plate **S46** using the screws that came with the pattern adaptor, as shown in Figure 2, but don't tighten the screws yet to make the next step easier. Now use M4 screws **B15** to attach the threaded plates **S46** to the GoBilda motor channel **S45**. The threaded plate should be on the outside of the channel. Once all screws are in, tighten them and make sure there is no air gap between the parts. Now repeat the process on the other side of the U-channel.
 
-| <image src="/images/wheels/step_1a.png" height="150"> <image src="/images/wheels/step_1b.png" height="150"> <image src="/images/wheels/step_1c.png" height="150"> <image src="/images/wheels/step_1d.png" height="150"> |
+|![step 1](../../images/wheels/step_1a.png) 
+![step 2](../../images/wheels/step_1b.png)
+![step 3](../../images/wheels/step_1c.png)
+![step 4](../../images/wheels/step_1d.png)|
+
 |:-:|
 | Figure 2: Connecting the pattern adaptors. The tolerances might be tight, in which case it's best to connect the M4 screw to the threaded plate where the hole is elongated first, then loosely insert the larger screw into the channel adaptor before you attach the remaining two screws.
 
@@ -77,7 +86,7 @@ We will start by attaching pattern adaptors to connect the Servocity brackets to
 
 Attach the motor into the GoBilda channel **S45** you just prepared using clamping mount **S47** and screws **B15** as shown in Figure 3. Don't tighten the clamping mount to the motor all the way so we can adjust the positioning later to make the wheel center align with the corner steering axis. Slide on the motor shaft D-hub all the way back and tighten the clamp screw.
 
-<image src="/images/wheels/step_2.png" height="250">
+![](../../images/wheels/step_2.png)
 
 Figure 3: Attaching the motor to the lower bracket
 
@@ -87,15 +96,20 @@ With that the base wheel assembly is completed! We will attach the wheels after 
 
 Now, we need to create the four corner wheels. These build on what we made for the base wheel assemblies in the last step. For the corner motors, we will need to extend the attachment point upwards as it is important that the axes of the corner steering motors are directly above the middle of the wheels to enable smooth steering.
 
-| item                           | ref  | qty | img                                                                   |     | item                          | ref | qty | img                                                                   |
-| ------------------------------ | ---- | --- | --------------------------------------------------------------------  | --- | ----------------------------- | --- | --- | --------------------------------------------------------------------  |
-| 3" channel                     | S2   | 4   | <image src="/images/components/structural/S2.png" width="120">   |     | 48 Tooth Plain Bore Gear      | S26 | 4   | <image src="/images/components/structural/S26.png" width="120">  |
-| 4.5" channel                   | S4   | 4   | <image src="/images/components/structural/S4.png" width="120">   |     | 6-32 x 1/2" Button Head Screw | B3  | 8   | <image src="/images/components/screws/B3.png" width="120">       |
-| Channel connector plate        | S6   | 12  | <image src="/images/components/structural/S6.png" width="120">   |     | 6-32 x 1/4" screws            | B1  | 40  | <image src="/images/components/screws/B1.png" width="120">       |
-| 0.25" Face tapped clamping hub | S12  | 4   | <image src="/images/components/structural/S12.png" width="120">  |     | allen key set                 | D2  |     | <image src="/images/components/tools/D2.png" width="120">       |
-| Loctite Threadlocker           | S34  |     | <image src="/images/components/structural/S34.png" width="120">  |     | 6-32 x 3/4" Threaded Standoff | T3  | 4   | <image src="/images/components/standoffs/T3.png" width="120">    |
-| wheels                         | S30A | 6   | <image src="/images/components/structural/S30.png" width="120">  |     | 6-32 x 5/8" screws            | B4  | 12  | <image src="/images/components/screws/B4.png" width="120">       |
-
+| item                           | ref  | qty | img                                                                   |
+| ------------------------------ | ---- | --- | --------------------------------------------------------------------  |
+| 3" channel                     | S2   | 4   | ![](../../images/components/structural/S2.png) |
+| 4.5" channel                   | S4   | 4   | ![](../../images/components/structural/S4.png) |
+| Channel connector plate        | S6   | 12  | ![](../../images/components/structural/S6.png) |
+| 0.25" Face tapped clamping hub | S12  | 4   | ![](../../images/components/structural/S12.png)|
+| Loctite Threadlocker           | S34  |     | ![](../../images/components/structural/S34.png)|
+| wheels                         | S30A | 6   | ![](../../images/components/structural/S30.png)|
+| 48 Tooth Plain Bore Gear      | S26 | 4   | ![](../../images/components/structural/S26.png)|
+| 6-32 x 1/2" Button Head Screw | B3  | 8   | ![](../../images/components/screws/B3.png)     |
+| 6-32 x 1/4" screws            | B1  | 40  | ![](../../images/components/screws/B1.png)     |
+| allen key set                 | D2  |     | ![](../../images/components/tools/D2.png)     |
+| 6-32 x 3/4" Threaded Standoff | T3  | 4   | ![](../../images/components/standoffs/T3.png)  |
+| 6-32 x 5/8" screws            | B4  | 12  | ![](../../images/components/screws/B4.png)     |
 
 #### 4.2.1 Channel Attachments 1
 
@@ -109,7 +123,7 @@ Attach 3 inch channel **S2** to your base wheel assembly using 8 screws **S6** a
 
 Attach the 0.25in clamping hub **S12** and the plane bore gear **S26** to the channel using screws **B3** from the top and **B1** from the bottom as shown in Figure 5.
 
-| <img src="/images/wheels/step_3a.png" height="250"> <img src="/images/wheels/step_3b.png" height="250"> |
+| ![](../../images/wheels/step_3a.png) ![](../../images/wheels/step_3b.png) |
 |:-:|
 | Figure 5: Attaching the large encoder gear |
 
@@ -117,7 +131,7 @@ Attach the 0.25in clamping hub **S12** and the plane bore gear **S26** to the ch
 
 In order to keep the wheels from spinning too far in either direction, we will install a physical hard stop in the system. Attach a standoff **T3** with screw **B1** and optionally Loctite Threadlocker **S34** to the channel as shown in Figure 6. This standoff will be our hard stop. Make sure that you use the correct mounting hole or the standoff will not line up with the hard stops on the encoder mount.
 
-| <image src="/images/wheels/step_4.png" height="250"> |
+|![](../../images/wheels/step_4.png) |
 |:-:|
 | Figure 6: Attaching the hard stop that prevents the corner motor from rotating too far |
 
@@ -125,7 +139,8 @@ In order to keep the wheels from spinning too far in either direction, we will i
 
 Attach the 4.5in channel **S4** to the top of the 3in channel from the last step using two channel connectors **S6** and screws **B1** as shown in Figure 7.
 
-| <img src="/images/wheels/step_5a.png" height="250"> <img src="/images/wheels/step_5b.png" height="250"> |
+| ![ ](../../images/wheels/step_5a.png) ![](../../images/wheels/step_5b.png) |
+
 |:-:|
 | Figure 7: Attach the 4.5in channel you made in step 3 to the base wheel mount |
 
@@ -137,7 +152,8 @@ You should have 4 corner assemblies and 2 base wheel assemblies.
    
 For all 6 assemblies, use screws **B4** to mount the wheels to the shaft clamp on the motors.
 
-| <image src="/images/wheels/step_6.png" height="250"> |
+| ![](../../images/wheels/step_6.png) |
+
 |:-:|
 | Figure 8: Attaching the wheels |
 
