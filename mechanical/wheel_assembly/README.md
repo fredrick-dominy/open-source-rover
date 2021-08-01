@@ -51,6 +51,7 @@ Drill holes in the wheels as shown in Figure 1 using the center drill and drill 
 
 ---
 | ![wheel drill](../../images/wheels/wheel_drill.png)  ![wheel aligned](../../images/wheels/wheel_aligned.png) |
+
 |:-:|
 | Figure 1: Drilling the wheels |
 
