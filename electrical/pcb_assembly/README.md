@@ -1,6 +1,6 @@
 #  PCB Assembly
 
-<img src="../../images/pcb_assembly/assembly/assembly_15.png" width="50%">
+![pcb](../../images/pcb_assembly/assembly/assembly_15.png)
 
 This document goes through the process of assembling and testing the custom
 Printed Circuit Boards for the project. One thing you might notice is the boards
@@ -62,7 +62,7 @@ Begin by soldering the 6 Position Side entry terminal blocks **E3** into the
    J17-J26 on the PCB. Be sure that the wire terminals face **OUTWARD** (away
    from the center of the board) on all of these connectors.
 
-| <img src="../../images/pcb_assembly/assembly/assembly_1.png" height="300"> <img src="../../images/pcb_assembly/assembly/top_term.png" height="300"> |
+| ![](../../images/pcb_assembly/assembly/assembly_1.png) ![](../../images/pcb_assembly/assembly/top_term.png) |
 |:-:|
 | Figure 1: Assembly Step 1 |
 
@@ -76,7 +76,7 @@ On the **bottom** of the board, solder the 6 Position top entry terminal
 
 ![assembly1](../../images/pcb_assembly/assembly/assembly_2.png)
 ![assembly2](../../images/pcb_assembly/assembly/bottom_term.png)
-| <img src="../../images/pcb_assembly/assembly/assembly_2.png" height="300"> <img src="../../images/pcb_assembly/assembly/bottom_term.png" height="300"> |
+
 |:-:|
 | Figure 1: Assembly Step 2 |
 
@@ -87,17 +87,21 @@ On the **bottom** of the board, solder the 20-position female socket header
    They will be labeled with reference designators RoboClaw 1-5. These are the
    digital signal pins for the RoboClaw motor controllers.
 
-| <img src="../../images/pcb_assembly/assembly/assembly_3.png" height="300"> <img src="../../images/pcb_assembly/assembly/rc_header.png" height="300"> |
-|:-:|
+![](../../images/pcb_assembly/assembly/assembly_3.png)
+![](../../images/pcb_assembly/assembly/rc_header.png)
+
 | Figure 1: Assembly Step 3 |
 
 ### 3.2 Resistors and Capacitors
 
-| **Item**               | **Ref** | **Qty** | **Image**                                                       | **Item**               | **Ref** | **Qty** | **Image**                                                       |
-| ---------------------- | ------- | ------- | --------------------------------------------------------------- | ---------------------- | ------- | ------- | --------------------------------------------------------------- |
-| OSR Control Board      | E1      | 1       | <img src="../../images/components/electronics/E1.png" width="100">  | 22K 1/4 Watt Resistor  | E9      | 4       | <img src="../../images/components/electronics/E9.png" width="100">  |
-| 4.7K 1/4 Watt Resistor | E7      | 1       | <img src="../../images/components/electronics/E7.png" width="100">  | 10K 1/2 Watt Resistor  | E10     | 1       | <img src="../../images/components/electronics/E10.png" width="100"> |
-| 10K 1/4 Watt Resistor  | E8      | 4       | <img src="../../images/components/electronics/E8.png" width="100">  | 100nF Capacitor        | E11     | 17      | <img src="../../images/components/electronics/E11.png" width="100"> |
+| **Item**               | **Ref** | **Qty** | **Image**                                                       |
+| ---------------------- | ------- | ------- | --------------------------------------------------------------- |
+| OSR Control Board      | E1      | 1       | ![](../../images/components/electronics/E1.png)  |
+| 22K 1/4 Watt Resistor  | E9      | 4       | ![](../../images/components/electronics/E9.png)  |
+| 4.7K 1/4 Watt Resistor | E7      | 1       | ![](../../images/components/electronics/E7.png)  |
+| 10K 1/2 Watt Resistor  | E10     | 1       | ![](../../images/components/electronics/E10.png) |
+| 10K 1/4 Watt Resistor  | E8      | 4       | ![](../../images/components/electronics/E8.png)  |
+| 100nF Capacitor        | E11     | 17      | ![](../../images/components/electronics/E11.png) |
 
 #### 3.2.1 Solder resistors and capacitors
 
@@ -117,7 +121,7 @@ On the **top** of the board, solder the resistors and capacitors by
 | 10K 1/2 Watt Resistor  | E10                | R2                      |
 | 100nF Capacitor        | E11                | C1-17                   |
 
-| <img src="../../images/pcb_assembly/assembly/caps_res.png" height="400">|
+| ![](../../images/pcb_assembly/assembly/caps_res.png)|
 |:-:|
 | Figure 4: Resistor and Capacitor soldering |
 
@@ -125,8 +129,8 @@ On the **top** of the board, solder the resistors and capacitors by
 
 | **Item**            | **Ref** | **Qty** | **Image**                                                      |
 | ------------------- | ------- | ------- | -------------------------------------------------------------- |
-| OSR Control Board   | E1      | 1       | <img src="../../images/components/electronics/E1.png" width="100"> |
-| 5 Pos Header Socket | E6      | 2       | <img src="../../images/components/electronics/E6.png" width="100"> |
+| OSR Control Board   | E1      | 1       | ![](../../images/components/electronics/E1.png) |
+| 5 Pos Header Socket | E6      | 2       | ![](../../images/components/electronics/E6.png) |
 
 #### 3.3.1 Solder 5-position header sockets
 
@@ -134,7 +138,7 @@ On the **bottom** of the board, solder the 5-position female header sockets
     **E6**. The sockets will have schematic reference designators of J9 and J11.
     These connectors are what the 12V and 5V voltage regulators will slot into.
 
-| <img src="../../images/pcb_assembly/assembly/assembly_5.png" height="300"> <img src="../../images/pcb_assembly/assembly/regs_header.png" height="300"> |
+| ![](../../images/pcb_assembly/assembly/assembly_5.png) ![](../../images/pcb_assembly/assembly/regs_header.png) |
 |:-:|
 | Figure 5: Assembly Step 5 |
 
@@ -142,9 +146,9 @@ On the **bottom** of the board, solder the 5-position female header sockets
 
 | **Item**                        | **Ref** | **Qty** | **Image**                                                        |
 | ------------------------------- | ------- | ------- | ---------------------------------------------------------------- |
-| OSR Control Board               | E1      | 1       | <img src="../../images/components/electronics/E1.png" width="100">   |
-| 2 Pos Side Terminal Block       | E12     | 3       |  <img src="../../images/components/electronics/E12.png" width="100"> |
-| 2 Position 2.5mm Terminal Block | E18     | 1       | <img src="../../images/components/electronics/E18.png" width="100">  |
+| OSR Control Board               | E1      | 1       | ![](../../images/components/electronics/E1.png)   |
+| 2 Pos Side Terminal Block       | E12     | 3       | ![](../../images/components/electronics/E12.png) |
+| 2 Position 2.5mm Terminal Block | E18     | 1       | ![](../../images/components/electronics/E18.png)  |
 
 #### 3.4.1 Solder 2-position terminal blocks on top of board
 
@@ -154,7 +158,8 @@ On the **top** of the board, solder the 2-position side entry terminal
     on the **top** of the board, solder the remaining 2-position 2.5mm terminal
     block **E18** (schematic reference designator J12).
 
-| <img src="../../images/pcb_assembly/assembly/assembly_6.png" height="300"> <img src="../../images/pcb_assembly/assembly/power_term.png" height="300"> |
+| ![](../../images/pcb_assembly/assembly/assembly_6.png)
+![](../../images/pcb_assembly/assembly/power_term.png) |
 |:-:|
 | Figure 6: Assembly Step 6 |
 
@@ -162,8 +167,8 @@ On the **top** of the board, solder the 2-position side entry terminal
 
 | **Item**          | **Ref** | **Qty** | **Image**                                                       |
 | ----------------- | ------- | ------- | --------------------------------------------------------------- |
-| OSR Control Board | E1      | 1       | <img src="../../images/components/electronics/E1.png" width="100">  |
-| 8 Pin DIP Socket  | E33     | 2       | <img src="../../images/components/electronics/E33.png" width="100"> |
+| OSR Control Board | E1      | 1       | ![](../../images/components/electronics/E1.png)  |
+| 8 Pin DIP Socket  | E33     | 2       | ![](../../images/components/electronics/E33.png) |
 
 #### 3.5.1 Solder 8-pin DIP sockets
 
@@ -175,16 +180,19 @@ On the **top** of the board, solder the 8 Pin DIP sockets **E33**. They will
     as pictured (toward the resistors and capacitors) will align the socket's
     notch with the chip's.
 
-| <img src="../../images/pcb_assembly/assembly/assembly_7.png" height="300"> <img src="../../images/pcb_assembly/assembly/dip_socket.png" height="300"> |
+| ![](../../images/pcb_assembly/assembly/assembly_7.png) 
+![](../../images/pcb_assembly/assembly/dip_socket.png) |
 |:-:|
 | Figure 7: Assembly Step 7 |
 
 ### 3.6 RPi GPIO Connector and misc headers
 
-| **Item**                 | **Ref** | **Qty** | **Image**                                                       | **Item**                 | **Ref** | **Qty** | **Image**                                                       |
-| ------------------------ | ------- | ------- | --------------------------------------------------------------- | ------------------------ | ------- | ------- | --------------------------------------------------------------- |
-| OSR Control Board        | E1      | 1       | <img src="../../images/components/electronics/E1.png" width="100">  | 6 Position JST Connector | E14     | 1       | <img src="../../images/components/electronics/E14.png" width="100"> |
-| 40 Pin Header Connector  | E13     | 2       | <img src="../../images/components/electronics/E13.png" width="100"> | 40 Position Header Pins  | E15     | 1       | <img src="../../images/components/electronics/E15.png" width="100"> |
+| **Item**                 | **Ref** | **Qty** | **Image**                                                       |
+| ------------------------ | ------- | ------- | --------------------------------------------------------------- |
+| OSR Control Board        | E1      | 1       | ![](../../images/components/electronics/E1.png)  |
+| 6 Position JST Connector | E14     | 1       | ![](../../images/components/electronics/E14.png) |
+| 40 Pin Header Connector  | E13     | 2       | ![](../../images/components/electronics/E13.png) |
+| 40 Position Header Pins  | E15     | 1       | ![](../../images/components/electronics/E15.png) |
 
 #### 3.6.1 Solder 40-position headers
 
@@ -192,7 +200,9 @@ On the **top** of the board, solder the 40-position header connectors
     **E13**. The clocking notch on the headers should face **OUTWARD** as shown
     below. The schematic reference designators are J6 and J7.
 
-| <img src="../../images/pcb_assembly/assembly/assembly_8.png" height="300"> <img src="../../images/pcb_assembly/assembly/gpio.png" height="300"> |
+| ![](../../images/pcb_assembly/assembly/assembly_8.png) 
+![](../../images/pcb_assembly/assembly/gpio.png) |
+
 |:-:|
 | Figure 8: Assembly Step 8 |
 
@@ -204,7 +214,8 @@ Take the 40 pin header pins **E15** and break off a 6-pin segment. On the
     reference designator. The opening in the pins on the JST connector should
     face **INWARD** as shown below.
 
-| <img src="../../images/pcb_assembly/assembly/assembly_9.png" height="300"> <img src="../../images/pcb_assembly/assembly/jst_top.png" height="300"> |
+| ![](../../images/pcb_assembly/assembly/assembly_9.png) 
+![](../../images/pcb_assembly/assembly/jst_top.png) |
 |:-:|
 | Figure 9: Assembly Step 9 |
 
@@ -212,9 +223,9 @@ Take the 40 pin header pins **E15** and break off a 6-pin segment. On the
 
 | **Item**          | **Ref** | **Qty** | **Image**                                                       |
 | ----------------- | ------- | ------- | --------------------------------------------------------------- |
-| OSR Control Board | E1      | 1       | <img src="../../images/components/electronics/E1.png" width="100">  |
-| 10 Amp Fuse       | E16     | 1       | <img src="../../images/components/electronics/E16.png" width="100"> |
-| Diode             | E17     | 1       | <img src="../../images/components/electronics/E17.png" width="100"> |
+| OSR Control Board | E1      | 1       | ![](../../images/components/electronics/E1.png)  |
+| 10 Amp Fuse       | E16     | 1       | ![](../../images/components/electronics/E16.png) |
+| Diode             | E17     | 1       | ![](../../images/components/electronics/E17.png) |
 
 #### 3.7.1 Solder fuse and diode
 
@@ -223,7 +234,8 @@ Solder the fuse **E16** and diode **E17** onto the top of the board into
     attention to the direction that the Diode is mounted on the board**, as it
     will only work in one direction!
 
-| <img src="../../images/pcb_assembly/assembly/fuse_diode.png" width="250"> <img src="../../images/pcb_assembly/assembly/fuse.png" width="250"> |
+| ![](../../images/pcb_assembly/assembly/fuse_diode.png) 
+![](../../images/pcb_assembly/assembly/fuse.png) |
 |:-:|
 | Figure 10: Fuse and Diode Soldering |
 
@@ -231,26 +243,31 @@ Solder the fuse **E16** and diode **E17** onto the top of the board into
 
 | **Item**          | **Ref** | **Qty** | **Image**                                                       |
 | ----------------- | ------- | ------- | --------------------------------------------------------------- |
-| OSR Control Board | E1      | 1       | <img src="../../images/components/electronics/E1.png" width="100">  |
-| USB Connector     | E34     | 1       | <img src="../../images/components/electronics/E34.png" width="100"> |
+| OSR Control Board | E1      | 1       | ![](../../images/components/electronics/E1.png)  |
+| USB Connector     | E34     | 1       | ![](../../images/components/electronics/E34.png) |
 
 #### 3.8.1 Solder USB connectors
 
 On the **top** of the board, solder the two USB Connectors **E34**. They
     will have reference designators J12 and J14.
 
-| <img src="../../images/pcb_assembly/assembly/assembly_10.png" width="200"> <img src="../../images/pcb_assembly/assembly/usb.png" width="200"> |
+| ![](../../images/pcb_assembly/assembly/assembly_10.png) 
+![](../../images/pcb_assembly/assembly/usb.png) |
 |:-:|
 | Figure 10: Assembly Step 10 |
 
 ### 3.9 Standoffs
 
-| **Item**                       | **Ref** | **Qty** | **Image**                                                       | **Item**                       | **Ref** | **Qty** | **Image**                                                       |
-| ------------------------------ | ------- | ------- | --------------------------------------------------------------- | ------------------------------ | ------- | ------- | --------------------------------------------------------------- |
-| #6-32 x 3/4" Threaded Standoff | T3      | 4       |   <img src="../../images/components/standoffs/T3.png" width="100">  | #6-32 3/8" Button Head Screw   | B2      | 8       |   <img src="../../images/components/screws/B2.png" width="100">     |
-| #4-40 x 1/2" Threaded Standoff | T5     | 20      |   <img src="../../images/components/standoffs/T11.png" width="100"> | #4-40 1/4" Button Head Screw   | B8      | 40      |   <img src="../../images/components/screws/B8.png" width="100">     |
-| #2-56 x 1/2" Threaded Standoff | T11      | 4       |   <img src="../../images/components/standoffs/T8.png" width="100">  | #2-56 1/4" Button Head Screw   | B13     | 8       |   <img src="../../images/components/screws/B13.png" width="100">    |
-| M2.5 x 10mm Threaded Standoff  | T10     | 4       | <img src="../../images/components/standoffs/T10.png" width="100">   | M2.5 x 6mm Socket Head Screw   | B10     | 8       | <img src="../../images/components/screws/B10.png" width="100">      |
+| **Item**                       | **Ref** | **Qty** | **Image**                                                       |
+| ------------------------------ | ------- | ------- | --------------------------------------------------------------- |
+| #6-32 x 3/4" Threaded Standoff | T3      | 4       |   ![](../../images/components/standoffs/T3.png)  |
+| #6-32 3/8" Button Head Screw   | B2      | 8       |   ![](../../images/components/screws/B2.png)     |
+| #4-40 x 1/2" Threaded Standoff | T5     | 20      |   ![](../../images/components/standoffs/T11.png) |
+| #4-40 1/4" Button Head Screw   | B8      | 40      |   ![](../../images/components/screws/B8.png)     |
+| #2-56 x 1/2" Threaded Standoff | T11      | 4       |   ![](../../images/components/standoffs/T8.png)  |
+| #2-56 1/4" Button Head Screw   | B13     | 8       |   ![](../../images/components/screws/B13.png)    |
+| M2.5 x 10mm Threaded Standoff  | T10     | 4       | ![](../../images/components/standoffs/T10.png)   |
+| M2.5 x 6mm Socket Head Screw   | B10     | 8       | ![](../../images/components/screws/B10.png)      |
 
 #### 3.9.1 Board mounting Standoffs
 

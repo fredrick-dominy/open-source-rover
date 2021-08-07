@@ -63,12 +63,16 @@ The important dimension is that the two holes are as close to 0.770 inches apart
 
 Next, we will build the wheel assemblies which are divided into the middle wheels and corner wheel assemblies. We will build 6 identical base wheels and then add slightly more complexity onto 4 of those which will eventually become the corner wheels.
 
-| item           | ref  | qty | img                                                                   |     | item               | ref | qty | img                                                                   |
-| -------------- | ---- | --- | --------------------------------------------------------------------- | --- | ------------------ | --- | --- | --------------------------------------------------------------------- |
-| channel        | S45  | 6   | ![channel](../../images/components/structural/S45.png) |     | drive motor        | E49 | 6   | ![drive motor](../../images/components/electronics/E49.png) |
-| 6mm D-hub      | S49  | 6   | ![6mm D-hub](../../images/components/structural/S49.png)|     | M4 screws          | B15 | 48  | ![M4 screws ](../../images/components/screws/B15.png)     |
-| clamping mount | S47  | 6   | ![clamping mount](../../images/components/structural/S47.png) |     | allen key set      | D2  |     |![allen key set](../../images/components/tools/D2.png) |
-| threaded plate | S46  |     | ![threaded plate](../../images/components/structural/S46.png) |     | pattern adaptor    | S48 | 4   | ![pattern adaptor](../../images/components/structural/S48.png) |
+| item | ref | qty | img |
+| --- | ---- | --- | --- | 
+| channel        | S45  | 6   | ![channel](../../images/components/structural/S45.png) |     
+| drive motor        | E49 | 6   | ![drive motor](../../images/components/electronics/E49.png) |
+| 6mm D-hub      | S49  | 6   | ![6mm D-hub](../../images/components/structural/S49.png)|     
+| M4 screws          | B15 | 48  | ![M4 screws ](../../images/components/screws/B15.png)     |
+| clamping mount | S47  | 6   | ![clamping mount](../../images/components/structural/S47.png) |     
+| allen key set      | D2  |     |![allen key set](../../images/components/tools/D2.png) |
+| threaded plate | S46  |     | ![threaded plate](../../images/components/structural/S46.png) |     
+| pattern adaptor    | S48 | 4   | ![pattern adaptor](../../images/components/structural/S48.png) |
 
 
 #### 4.1.1 Prepare the motor channel
