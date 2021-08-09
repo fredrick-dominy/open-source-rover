@@ -276,7 +276,8 @@ On the **BOTTOM** side of the board, attach
     using screws **B2**. These standoffs will be used to attach the board to the
     robot chassis.
 
-| <img src="../../images/pcb_assembly/assembly/standoff_2.png" width="300"> <img src="../../images/pcb_assembly/assembly/standoff_1.png" width="300"> |
+| ![](../../images/pcb_assembly/assembly/standoff_2.png)
+![](../../images/pcb_assembly/assembly/standoff_1.png) |
 |:-:|
 | Figure 12: Mounting Standoffs |    
 
@@ -287,7 +288,7 @@ On the **BOTTOM** side of the board, attach
     can identify the RoboClaw mounting holes as the ones that are inside the
     RoboClaw rectangles on the silk screen.
 
-| <img src="../../images/pcb_assembly/assembly/standoff_3.png" width="300"> |
+| ![](../../images/pcb_assembly/assembly/standoff_3.png) |
 |:-:|
 | Figure 13: RoboClaw Mounting Standoffs |
 
@@ -296,7 +297,7 @@ On the **BOTTOM** side of the board, attach
 On the **BOTTOM** side of the board, attach
     the four #2-56 Standoffs **T11** using screws **B13** as shown below.
 
-| <img src="../../images/pcb_assembly/assembly/standoff_4.png" width="300"> |
+| ![](../../images/pcb_assembly/assembly/standoff_4.png) |
 |:-:|
 | Figure 14: Voltage regulator Mounting Standoffs |
 
@@ -305,11 +306,11 @@ On the **BOTTOM** side of the board, attach
 On the **TOP** side of the board, attach the
     four M2.5 Standoffs **T10** using screws **B10** as shown in below.
 
-| <img src="../../images/pcb_assembly/assembly/standoff_5.png" width="300"> |
+| ![](../../images/pcb_assembly/assembly/standoff_5.png) |
 |:-:|
 | Figure 15: Raspberry Pi Standoffs |
 
-| <img src="../../images/pcb_assembly/assembly/standoffs.png" width="300"> |
+| ![](../../images/pcb_assembly/assembly/standoffs.png) |
 |:-:|
 | Figure 16: Standoffs Installed (Bottom View) |
 
@@ -317,9 +318,9 @@ On the **TOP** side of the board, attach the
 
 | **Item**                   | **Ref** | **Qty** | **Image**                                                       | **Item**                   | **Ref** | **Qty** | **Image**                                                       |
 | -------------------------- | ------- | ------- | --------------------------------------------------------------- | -------------------------- | ------- | ------- | --------------------------------------------------------------- |
-| Arduino Shield             | E2      | 1       | <img src="../../images/components/electronics/E2.png" width="100">  | 1x6 JST header pins        | E14     | 1       | <img src="../../images/components/electronics/E14.png" width="100"> |
-| 2 Position Term Block      | E18     | 1       | <img src="../../images/components/electronics/E18.png" width="100"> | 1x40 0.1 Pitch Header pins | E15     | 1       | <img src="../../images/components/electronics/E15.png" width="100"> |
-| 2x8 Shrouded Header Pins   | E19     | 1       | <img src="../../images/components/electronics/E19.png" width="100"> | Soldering Iron             | N/A     |         |                                                                 |
+| Arduino Shield             | E2      | 1       | ![](../../images/components/electronics/E2.png) | 1x6 JST header pins        | E14     | 1       | <img src="../../images/components/electronics/E14.png" width="100"> |
+| 2 Position Term Block      | E18     | 1       | ![](../../images/components/electronics/E18.png) | 1x40 0.1 Pitch Header pins | E15     | 1       | <img src="../../images/components/electronics/E15.png" width="100"> |
+| 2x8 Shrouded Header Pins   | E19     | 1       | ![](../../images/components/electronics/E19.png) | Soldering Iron             | N/A     |         |                                                                 |
 
 
 
@@ -327,7 +328,8 @@ Now, we will assemble the Arduino shield that will sit in the rover's head and
 control the face. We will start with the **TOP** side of the Arduino board. The
 final product is shown below.
 
-| <img src="../../images/pcb_assembly/assembly/arduino_shield_top.png" width="300"> <img src="../../images/pcb_assembly/assembly/arduino_shield_bottom.png" width="300"> |
+| ![](../../images/pcb_assembly/assembly/arduino_shield_top.png) 
+![](../../images/pcb_assembly/assembly/arduino_shield_bottom.png) |
 |:-:|
 | Figure 17: Assembled Arduino Shield |
 
@@ -338,7 +340,7 @@ Begin by taking the 2-position terminal block **E18** and soldering it to
     top of the board at the J6 connector, such that the screw terminals face
     outwards as shown below:
 
-| <img src="../../images/pcb_assembly/assembly/term_block.png" width="300"> |
+| ![](../../images/pcb_assembly/assembly/term_block.png) |
 |:-:|
 | Figure 18: Terminal Block assembly |
 
@@ -348,7 +350,7 @@ Solder the 1x6 JST connector **E14** onto the top of the board at the J5
     connector such that the notch in the connector faces **OUTWARDS** as shown
     below:
 
-| <img src="../../images/pcb_assembly/assembly/jst.png" width="300"> |
+| ![](../../images/pcb_assembly/assembly/jst.png) |
 |:-:|
 | Figure 19: JST assembly |
 
@@ -358,7 +360,7 @@ Solder the 2x8 shrouded header pin connector **E19** to the top of the board
     at connector J1 such that the notch faces **OUTWARDS** as shown in the final
     product image above.
 
-| <img src="../../images/pcb_assembly/assembly/2x8_above.png" width="300"> |
+| ![](../../images/pcb_assembly/assembly/2x8_above.png) |
 |:-:|
 | Figure 20: Terminal Block assembly |
 
@@ -367,7 +369,7 @@ Solder the 2x8 shrouded header pin connector **E19** to the top of the board
 Solder the 0.1 pitch header pins **E15** to connectors J2-4 on the top side
     of the board:
 
-| <img src="../../images/pcb_assembly/assembly/01_pitch_above.png" width="300"> |
+| ![](../../images/pcb_assembly/assembly/01_pitch_above.png) |
 |:-:|
 | Figure 21: 0.1 Pitch headers (1) |
 
@@ -379,13 +381,14 @@ Flip the Arduino board over to the **BOTTOM** side where we will now install
 Solder the 0.1 pitch header pins **E15** to the bottom side of the board in
     the remaining hole sets.
 
-| <img src="../../images/pcb_assembly/assembly/01_pitch_under.png" width="300"> |
+| ![](../../images/pcb_assembly/assembly/01_pitch_under.png) |
 |:-:|
 | Figure 22: 0.1 Pitch headers (2) |
 
 #### 4.1.6 Assembled
 
-| <img src="../../images/pcb_assembly/assembly/arduino_shield_top.png" width="300"> <img src="../../images/pcb_assembly/assembly/arduino_shield_bottom.png" width="300"> |
+| ![](../../images/pcb_assembly/assembly/arduino_shield_top.png) 
+![](../../images/pcb_assembly/assembly/arduino_shield_bottom.png) |
 |:-:|
 | Figure 23: Assembled Arduino Shield  |
 
@@ -404,13 +407,18 @@ plugged in incorrectly or shorted.
 
 ### 5.1 Power Distribution System
 
-| **Item**                  | **Ref** | **Qty** | **Image**                                                       | **Item**                  | **Ref** | **Qty** | **Image**                                                       |
-| ------------------------- | ------- | ------- | --------------------------------------------------------------- | ------------------------- | ------- | ------- | --------------------------------------------------------------- |
-| OSR Control Board         | E1      | 1       | <img src="../../images/components/electronics/E1.png" width="150">  | 5V Regulator              | E22     | 1       | <img src="../../images/components/electronics/E22.png" width="150"> |
-| Battery                   | E36     | 1       | <img src="../../images/components/electronics/E36.png" width="150"> | 12V Regulator             | E23     | 1       | <img src="../../images/components/electronics/E23.png" width="150"> |
-| Tamiya Battery Connectors | E35     | 1       | <img src="../../images/components/electronics/E35.png" width="150"> | RoboClaw Motor Controller | E20     | 5       | <img src="../../images/components/electronics/E20.png" width="150"> |
-| Red 20 AWG Wire           | X1      | 1       | <img src="../../images/components/wiring/X1.png"       width="150">       | Op-Amp LM358P             | E25     | 1       | <img src="../../images/components/electronics/E25.png" width="150"> |
-| Black 20 AWG Wire         | X2      | 1       | <img src="../../images/components/wiring/X2.png"       width="150">       | Micro USB Cable           | E28     | 1       | <img src="../../images/components/electronics/E28.png" width="150"> |
+| **Item**                  | **Ref** | **Qty** | **Image**                                                       |
+| ------------------------- | ------- | ------- | --------------------------------------------------------------- |
+| OSR Control Board         | E1      | 1       | <img src="../../images/components/electronics/E1.png" width="150">  |
+| 5V Regulator              | E22     | 1       | <img src="../../images/components/electronics/E22.png" width="150"> |
+| Battery                   | E36     | 1       | <img src="../../images/components/electronics/E36.png" width="150"> |
+| 12V Regulator             | E23     | 1       | <img src="../../images/components/electronics/E23.png" width="150"> |
+| Tamiya Battery Connectors | E35     | 1       | <img src="../../images/components/electronics/E35.png" width="150"> |
+| RoboClaw Motor Controller | E20     | 5       | <img src="../../images/components/electronics/E20.png" width="150"> |
+| Red 20 AWG Wire           | X1      | 1       | <img src="../../images/components/wiring/X1.png"       width="150"> |
+| Op-Amp LM358P             | E25     | 1       | <img src="../../images/components/electronics/E25.png" width="150"> |
+| Black 20 AWG Wire         | X2      | 1       | <img src="../../images/components/wiring/X2.png"       width="150"> |
+| Micro USB Cable           | E28     | 1       | <img src="../../images/components/electronics/E28.png" width="150"> |
 
 #### 5.1.1 Test Step 1
 
@@ -422,7 +430,8 @@ Begin by powering the board. For testing purposes, we will plug the battery
     SWITCH**, and the black wire to the GND terminal on the connector **J15 /
     BATTERY IN**.
 
-| <img src="../../images/pcb_assembly/testing/testing_1.png" width="300"> <img src="../../images/pcb_assembly/testing/testing_2.png" width="300"> |
+| ![](../../images/pcb_assembly/testing/testing_1.png) 
+  ![](../../images/pcb_assembly/testing/testing_2.png) |
 |:-:|
 | Figure 24: Test Step 1 |
 
@@ -434,7 +443,7 @@ Using a Digital Multimeter (DMM), probe the voltage across the test points
     to T2 reads a positive number, and is between 12V and 16.7V depending on the
     charge state of your battery.
 
-| <img src="../../images/pcb_assembly/testing/testing_3.png" width="300"> |
+| ![](../../images/pcb_assembly/testing/testing_3.png) |
 |:-:|
 | Figure 25: Test Pads |
 
@@ -462,7 +471,8 @@ Start by inserting one of the RoboClaws into the slot on the bottom of the
     motor terminal block to the terminal block on the control board as shown
     below:
 
-| <img src="../../images/pcb_assembly/testing/rc_wires_2.png" width="300"> <img src="../../images/pcb_assembly/testing/rc_wires.png" width="300"> |
+| ![](../../images/pcb_assembly/testing/rc_wires_2.png)
+![](../../images/pcb_assembly/testing/rc_wires.png) |
 |:-:|
 | Figure 26: RoboClaw power/motor wires |
 
@@ -494,7 +504,8 @@ Insert the 5V regulator into the control board as shown below. Power your
     the 5V regulator is slotted in properly and that your solder connections are
     solid.
 
-| <img src="../../images/pcb_assembly/testing/testing_7.png" width="300"> <img src="../../images/pcb_assembly/testing/testing_3.png" width="300"> |
+| ![](../../images/pcb_assembly/testing/testing_7.png)
+![](../../images/pcb_assembly/testing/testing_3.png) |
 |:-:|
 | Figure 27: 5V Regulator & Test Pads |
 #### 5.1.9 Test Step 9
@@ -504,7 +515,8 @@ Insert the 12V regulator into the control board. Power your board and probe
     verify that it reads 12V. If it does not, make sure the 12V regulator is
     slotted in properly and that your solder connections are solid.
 
-| <img src="../../images/pcb_assembly/testing/testing_8.png" width="300"> <img src="../../images/pcb_assembly/testing/test_pads_t5_t6.png" width="300"> |
+| ![](../../images/pcb_assembly/testing/testing_8.png) 
+![](../../images/pcb_assembly/testing/test_pads_t5_t6.png) |
 |:-:|
 | Figure 28: 12V Regulator & Test Pads |
 
@@ -517,10 +529,9 @@ Press the Op-Amp LM358P **E25** into the slots in the 8 Position DIP socket.
 Take careful note of the direction of the chip in the DIP socket, as the notch
 **MUST** face the correct direction.
 
-| <img src="../../images/pcb_assembly/assembly/op_amp.png" width="300"> |
+| ![](../../images/pcb_assembly/assembly/op_amp.png) |
 |:-:|
 | Figure 29: Op-Amp Integration |
-![]()
 
 ### 6.1 Voltage Divider Verification
 
@@ -685,10 +696,12 @@ need a working operating system installed on the SD card. This will take some ti
 [software setup instructions](https://github.com/nasa-jpl/osr-rover-code#setup)
 to install the rover software on the Raspberry Pi.
 
-| **Item**               | **Ref** | **Qty** | **Image**                                                                  | **Item**               | **Ref** | **Qty** | **Image**                                                                  |
-| ---------------------- | ------- | ------- | -------------------------------------------------------------------------- | ---------------------- | ------- | ------- | -------------------------------------------------------------------------- |
-| OSR Control Board      | E1      | 1       | <img src="../../images/components/electronics/E1.png" width="100">             | 40 Pin Ribbon Cable    | E29     | 1       | <img src="../../images/components/electronics/E29.png" width="100">            |
-| Raspberry Pi 3B        | E21     | 1       | <img src="../../images/components/electronics/E21.png" width="100">            | USB to Micro USB Cable | E27     | 1       |            <img src="../../images/components/electronics/E27.png" width="100"> |
+| **Item**               | **Ref** | **Qty** | **Image**                                                                  |
+| ---------------------- | ------- | ------- | -------------------------------------------------------------------------- |
+| OSR Control Board      | E1      | 1       | ![](../../images/components/electronics/E1.png)             |
+| 40 Pin Ribbon Cable    | E29     | 1       | ![](../../images/components/electronics/E29.png)            |
+| Raspberry Pi 3B        | E21     | 1       | ![](../../images/components/electronics/E21.png)            |
+| USB to Micro USB Cable | E27     | 1       | ![](../../images/components/electronics/E27.png) |
 
 | :exclamation: Only proceed with the following once you have successfully finished the installation of the rover code on your raspberry pi |
 |:---------------------------|
@@ -707,17 +720,20 @@ Plug in the micro USB cable **E27** to the USB power port labeled J12 and to
     ribbon Cable **E29** into the Raspberry Pi GPIO header pins and connect the
     other end to the **J6** 40 pin GPIO connector.
 
-| <img src="../../images/pcb_assembly/testing/rpi_power.png" width="350"> <img src="../../images/pcb_assembly/testing/rpi_gpio.png" width="275"> |
+| ![](../../images/pcb_assembly/testing/rpi_power.png) 
+  ![](../../images/pcb_assembly/testing/rpi_gpio.png) |
 |:-:|
 | Figure 30: RPi Install |
 
 
 ## 8. Arduino Shield Testing
 
-| **Item**         | **Ref** | **Qty** | **Image**                                                       | **Item**         | **Ref** | **Qty** | **Image**                                                       |
-| ---------------- | ------- | ------- | --------------------------------------------------------------- | ---------------- | ------- | ------- | --------------------------------------------------------------- |
-| Arduino Shield   | E2      | 1       | <img src="../../images/components/electronics/E2.png" height="100">  | 1x6 JST Cable    | E26     | 1       | <img src="../../images/components/electronics/E26.png" height="100"> |
-| Arduino Uno      | E24     | 1       | <img src="../../images/components/electronics/E24.png" height="100"> | 16x32 LED Matrix | E37     | 1       | <img src="../../images/components/electronics/E37.png" height="100"> |
+| **Item**         | **Ref** | **Qty** | **Image**                                                       |
+| ---------------- | ------- | ------- | --------------------------------------------------------------- |
+| Arduino Shield   | E2      | 1       | ![](../../images/components/electronics/E2.png) |
+| 1x6 JST Cable    | E26     | 1       | ![](../../images/components/electronics/E26.png) |
+| Arduino Uno      | E24     | 1       | ![](../../images/components/electronics/E24.png) |
+| 16x32 LED Matrix | E37     | 1       | ![](../../images/components/electronics/E37.png) |
 
 Note: Testing the arduino board is dependent on finishing the control board and
 having it tested fully. Do not proceed until you have successfully tested your
@@ -726,7 +742,7 @@ main control board.
 Slot the Arduino Uno onto the bottom of the Arduino shield, matching the
 footprints on the board.
 
-| <img src="../../images/pcb_assembly/testing/arduino_mounted.png" width="300"> |
+| ![](../../images/pcb_assembly/testing/arduino_mounted.png) |
 |:-:|
 | Figure 31: Arduino Shield Mounted |
 
