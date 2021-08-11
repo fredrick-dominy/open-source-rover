@@ -12,13 +12,13 @@ The body is the housing of all the electronics for the rover. It is the attachme
 
 ## 2. Information about module
 
-| Author/Creator            | JPL       |
-| --------------            | -------            |
-| Cost without 3D printer   | 253.28             |
-| Cost with 3D printer      | 240.38             |
-| Date Added                | 4/11               |
-| Group/Organization/School | JPL                |
-| Time to build             | 3 hrs              |
+| Author/Creator            | JPL     |
+| --------------            | ------- |
+| Cost without 3D printer   | 253.28  |
+| Cost with 3D printer      | 240.38  |
+| Date Added                | 4/11    |
+| Group/Organization/School | JPL     |
+| Time to build             | 3 hrs   |
 
 ### 2.1 Skills
   * Band Saw/Dremel
@@ -163,8 +163,8 @@ Mount the PCB **E1** to the top of the chassis using screws **B2**. Note the pos
 |---|
 | Figure 7: Mounting the PCB |
 
-| <img src="../../images/body/body_7A.png" height="300"> |
-|:-:|
+| ![](../../images/body/body_7A.png) |
+| --- |
 | Figure 8: Mounting the PCB |
 
 Note the screw positions in Figure 8. You might not be able to get the screw circled in light blue in
@@ -174,80 +174,84 @@ because of the PVC clamping hub. This is okay, install the other 3 circled in ye
 
 
 
-| Item | Ref | Qty | Image | Item | Ref | Qty | Image |
-| :--- | :-- | :-- | :---: | :--- | :-- | :-- | :---: |
-| Dual Side Mount A              | S17 | 12 |  <img src="../../images/components/structural/S17.png" width="200"> | Laser Cut Back Panel           | S40 | 1 |   <img src="../../images/components/structural/S40.png" width="200"> |
-| #6-32x1/4" Button Head Screw   | B1 | 28 |   <img src="../../images/components/screws/B1.png" width="70"> | Switch                         | E39 | 1 |   <img src="../../images/components/electronics/E39.png" width="200"> |
-| 9"x12" Aluminum Plate          | S35 | 1 |   <img src="../../images/components/structural/S35.png" width="200"> | 3D printed Battery Holder      | S41 | 2 |   <img src="../../images/components/structural/S41.png" width="200"> |
-| Volt Meter                     | E38 | 1 |   <img src="../../images/components/electronics/E38.png" width="200"> | #6-32 Heat set insert          | I2 | 4 |    <img src="../../images/components/inserts/I2.png" width="200"> |
-| Laser Cut Front Panel          | S39 | 1 |   <img src="../../images/components/structural/S39.png" width="200"> | | | |
+| Item | Ref | Qty | Image |
+| ---- | --- | --- | ----- |
+| Dual Side Mount A              | S17 | 12 |  ![](../../images/components/structural/S17.png) |
+| Laser Cut Back Panel           | S40 | 1 |   ![](../../images/components/structural/S40.png) |
+| #6-32x1/4" Button Head Screw   | B1 | 28 |   ![](../../images/components/screws/B1.png) |
+| Switch                         | E39 | 1 |   ![](../../images/components/electronics/E39.png) |
+| 9"x12" Aluminum Plate          | S35 | 1 |   ![](../../images/components/structural/S35.png) |
+| 3D printed Battery Holder      | S41 | 2 |   ![](../../images/components/structural/S41.png) |
+| Volt Meter                     | E38 | 1 |   ![](../../images/components/electronics/E38.png) |
+| #6-32 Heat set insert          | I2 | 4 |    ![](../../images/components/inserts/I2.png) |
+| Laser Cut Front Panel          | S39 | 1 |   ![](../../images/components/structural/S39.png) |
 
 #### 4.4.1 Attach the Dual Side Mounts
 
 Mount Dual Side Mounts A **S17** using screws **B1** on the side plates in both the front and back.
 
-| <img src="../../images/body/body_8a.png" height="300"> <img src="../../images/body/body_8.png" height="300">|
-|:-:|
+| ![](../../images/body/body_8a.png) ![](../../images/body/body_8.png)|
+|---|
 | Figure 9: Dual Side Mount A locations |
 
 #### 4.4.2 Attach dual side mounts (2)
 
 Also attach Dual Side Mounts A **S17** using **B1** screws on the top plate, in the front and back
 
-| <img src="../../images/body/body_9.png" height="300"> <img src="../../images/body/body_10.png" height="300">|
-|:-:|
+| ![](../../images/body/body_9.png) ![](../../images/body/body_10.png)|
+|---|
 | Figure 10: Dual Side Mount A (cont) |
 
 #### 4.4.3 Front and back panels
 
 Using screws **B1** attach the front and back laser cut panels to the chassis.
 
-| <img src="../../images/body/body_12.png" height="300"> <img src="../../images/body/body_13.png" height="300">|
-|:-:|
+| ![](../../images/body/body_12.png) ![](../../images/body/body_13.png) |
+|---|
 | Figure 11: Front and Back Panels attached |
 
 #### 4.4.4 Attach the switch and volt meter
 
 Take the Volt Meter **E38** and the Switch **E39** and attach them to the back panel. Note that the switch goes in from the inside of the body, and the volt meter should snap press fit in from the outside.
 
-| <img src="../../images/body/voltmeter_switch.png" height="300"> <img src="../../images/body/voltmeter_switch_b.png" height="300">|
-|:-:|
+| ![](../../images/body/voltmeter_switch.png) ![](../../images/body/voltmeter_switch_b.png) |
+|---|
 | Figure 12: Volt Meter/Switch Installation |
 
 #### 4.4.5 Attach the Battery Holder
 
 Take the 3D printed Battery holder **S41** and using a solder Iron at 460 degrees F, push the #6-32 heat-set insert **I2** into the battery holder as shown below.
 
-| <img src="../../images/body/battery_holder_a.png" height="300"> <img src="../../images/body/battery_holder_b.png" height="300">|
-|:-:|
+| ![](../../images/body/battery_holder_a.png) ![](../../images/body/battery_holder_b.png) |
+| --- |
 | Figure 13: Installing heat set inserts|
 
 #### 4.4.6 Install the battery holders
 
 Mount the Battery holders onto the body assembly using screws **B1** as shown in Figure 14.
 
-| <img src="../../images/body/battery_install_a.png" height="300"> <img src="../../images/body/battery_install_b.png" height="300">|
-|:-:|
+| ![](../../images/body/battery_install_a.png) ![](../../images/body/battery_install_b.png) |
+| --- |
 | Figure 14: Battery holder installation |
 
 #### 4.4.7 Build bottom plate assembly
 
 Take the 9x12 Aluminum Plate **S35** and attach 6 dual side mount A **S17** along the edges as shown in Figure 15. Be sure to verify that the orientation of the dual side mounts **S17** matches the pictures.
 
-| <img src="../../images/body/body_bottom_1.png" width="50%"> |
-|:-:|
+| ![](../../images/body/body_bottom_1.png) |
+| --- |
 | Figure 15: Building the Bottom Panel |
 
 #### 4.4.8 Attach the bottom plate
 
 Take the bottom plate assembly you constructed in the previous step and attach it to the chassis.
 
-| <img src="../../images/body/body_bottom.png" width="50%"> |
-|:-:|
+| ![](../../images/body/body_bottom.png) |
+| --- |
 | Figure 16: Attaching the Bottom Panel |
 
 The Body Assembly is now Complete!
 
-| <img src="../../images/body/finished_body_a.png" height="300"> <img src="../../images/body/finished_body_b.png" height="300">|
-|:-:|
+| ![](../../images/body/finished_body_a.png) ![](../../images/body/finished_body_b.png) |
+| --- |
 | Figure 17: Completed Body Assembly |
