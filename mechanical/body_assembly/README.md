@@ -2,7 +2,7 @@
 
 The body is the housing of all the electronics for the rover. It is the attachment points for the rocker-bogie systems, as well as the differential pivot system.
 
-<img src="../../images/body/finished_body_a.png" width="70%">
+![](../../images/body/finished_body_a.png)
 
 ## 1. Features
   * Gives passthrough connections for USB ports on Raspberry Pi
@@ -48,15 +48,15 @@ The body is the housing of all the electronics for the rover. It is the attachme
 **Note: ServoCity has discontinued the 12x9 aluminum plates. Designs for replacment plates are avialble in the *[laser\_cut\_parts](laser_cut_parts/)* directory. If you need to use the laser cut parts, read the information found in [laser cut parts/README.md](laser_cut_parts/README.md) and then skip to section 3.2 of this document. The laser cut replacments have the necessary holes.**
 
 | Item | Ref | Qty | Image |
-| :--- | :-- | :-- | :---: |
-| 9"x12" Aluminum Plate | S35 | 1 | <img src="../../images/components/structural/S35.png" width="60%"> |
+| --- | --- | --- | ---- |
+| 9"x12" Aluminum Plate | S35 | 1 | ![](../../images/components/structural/S35.png) |
 
 First we need to drill a hole in one of the 9x12 Aluminum plates **S35** because we will need a hole of just over 0.5 in diameter for the differential pivot mount. There is already a small hole drilled in the location we want to use, but it needs to be widened substantially. Start with the drill #23 and drill the hole shown by Figure 1. Repeat this with drill sizes stepping up until you get to a drill of 0.5 in.
 
 Take the 0.5 in hollow rod **S19** and make sure it spins freely in the hole you have created. If it does not, drill the hole slightly larger or sand/file the hole until the rod spins with no resistance (The 0.5 in hollow rod must spin _freely_ while mounted inside the bearing blocks. See step 2.2 Differential pivot for example. It may help to follow step 2.2 in this document to test if you have enough clearance)
 
-| <img src="../../images/body/9x12_Plate_cut.png" height="300"> <img src="../../images/body/9x12_Plate_cut2.png" height="300"> |
-|:-:|
+| ![](../../images/body/9x12_Plate_cut.png) ![](../../images/body/9x12_Plate_cut2.png) |
+| --- |
 | Figure 1: Drilling the Aluminum Plate |
 
 ### 3.2 Laser Cut Parts
@@ -73,21 +73,29 @@ To get the above parts from Sculpteo, go to Laser cutting and then upload these 
 
 ### 4.1 Chassis
 
-| Item | Ref | Qty | Image | Item | Ref | Qty | Image |
-| :--- | :-- | :-- | :---: | :--- | :-- | :-- | :---: |
-| Dual Side mount A            | S17 | 4 | <img src="../../images/components/structural/S17.png" width="200"> | #6-32x1/4" Button Head Screw | B1 | 16 | <img src="../../images/components/screws/B1.png" width="70"> |
-| 4.5"x12" Aluminum Plate      | S37 | 2 | <img src="../../images/components/structural/S37.png" width="200"> | #6-32x3/8" Button Head Screw | B2 | 4 | <img src="../../images/components/screws/B2.png" width="70"> |
-| 3D-printed PVC Clamp                 | S50 | 1 | <img src="../../images/components/structural/S24.png" width="200"> | Allen Key Set                | | | <img src="../../images/components/tools/D2.png" width="200"> |
-| 9"x12" Aluminum Plate        | S35A | 1 | <img src="../../images/components/structural/S35.png" width="200"> | 5/16" Wrench                 | | | <img src="../../images/components/tools/D1.png" width="200">  |
-| #6-32x5/8" Button Head Screw | B4 | 6 | <img src="../../images/components/screws/B4.png" width="70"> |#6 Washer| W1| 2| <img src="/images/components/washers/W1.png" width="70">|
-| #6-32 Heat set insert | I2 | 6 | <img src="/images/components/inserts/I2.png" width="70">|
+| Item | Ref | Qty | Image |
+| ---- | --- | --- | ----- |
+| Dual Side mount A            | S17 | 4 | ![](../../images/components/structural/S17.png) |
+| #6-32x1/4" Button Head Screw | B1 | 16 | ![](../../images/components/screws/B1.png) |
+| 4.5"x12" Aluminum Plate      | S37 | 2 | ![](../../images/components/structural/S37.png) |
+| #6-32x3/8" Button Head Screw | B2 | 4 | ![](../../images/components/screws/B2.png) |
+| 3D-printed PVC Clamp                 | S50 | 1 | ![](../../images/components/structural/S24.png) |
+| Allen Key Set                | | | ![](../../images/components/tools/D2.png) |
+| 9"x12" Aluminum Plate        | S35A | 1 | ![](../../images/components/structural/S35.png) |
+| 5/16" Wrench                 | | | ![](../../images/components/tools/D1.png)  |
+| #6-32x5/8" Button Head Screw | B4 | 6 | ![](../../images/components/screws/B4.png) |
+| #6 Washer| W1| 2| ![](../../images/components/washers/W1.png) |
+| #6-32 Heat set insert | I2 | 6 | ![](../../images/components/inserts/I2.png) |
+
 
 #### 4.1.1 Top panel
 
 Take the modified 9x12 Aluminum plate **S35A** and attach the four Dual side mount A **S17** using screws **B1** at the locations shown below. Take care to match the orientation shown.
 
-| <img src="../../images/body/body_1.png" height="300"> <img src="../../images/body/body_2.png" height="150">|
-|:-:|
+| Top Panel |
+| --- |
+| ![](../../images/body/body_1.png) |
+| ![](../../images/body/body_2.png) |
 | Figure 2: Attaching side mounts to top panel |
 
 
@@ -95,8 +103,8 @@ Take the modified 9x12 Aluminum plate **S35A** and attach the four Dual side mou
 
 Attach the 4.5x12 plates **S37** to the dual side mounts using screws **B1**
 
-| <img src="../../images/body/body_3.png" height="300"> <img src="../../images/body/body_4.png" height="300">|
-|:-:|
+| ![](../../images/body/body_3.png) ![](../../images/body/body_4.png) |
+| --- |
 | Figure 3: Attach the side panels |
 
 #### 4.1.3 Assmble the PVC clamping hub
@@ -105,43 +113,45 @@ Attach the 4.5x12 plates **S37** to the dual side mounts using screws **B1**
 * Using washers **W1**, insert screws **B4** into clamp part of the clamping hub and screw part of the way into the brass inserts. Inserting these screws now simplifies inserting the PVC pipe later.
 
 
-| <img src="../../images/body/hub_lower.png" height="300"> <img src="../../images/body/hub_lower_screws.png" height="300">|
-|:-:|
+| ![](../../images/body/hub_lower.png) ![](../../images/body/hub_lower_screws.png)|
+| --- |
 | Figure 4: Assemble PVC Clamping Hub |
 
 #### 4.1.4 Attach the PVC clamping hub
 
 Attach clamping hub **S50** to the top plate of the body using screws **B1** Use the location shown in Figure 5.
 
-| <img src="../../images/body/body_pvc_1.png" height="300"> <img src="../../images/body/body_pvc_2.png" height="300">|
-|:-:|
+| ![](../../images/body/body_pvc_1.png) ![](../../images/body/body_pvc_2.png) |
+| --- |
 | Figure 5: Attach the PVC clamp to top plate |
 
 ### 4.2 Differential Pivot Block
 
 The differential pivot is used to transfer weight off of the wheel that is currently climbing to the other front wheel, allowing the rover to climb more easily. Additionally, it serves as a second contact point for the rover’s body such that it does not rotate freely about the cross rod.
 
-| Item | Ref | Qty | Image | Item | Ref | Qty | Image |
-| :--- | :-- | :-- | :---: | :--- | :-- | :-- | :---: |
-| 0.5" Pillow Bearing Block  | S11 | 2 | <img src="../../images/components/structural/S11.png" width="200"> | #6-32x1" Button Head Screw | B6 | 4 | <img src="../../images/components/screws/B6.png" width="200"> |
-| #6-32x1/4" Spacer          | T1 | 8 | <img src="../../images/components/standoffs/T1.png" width="70"> | Allen Key Set              | D2 | | <img src="../../images/components/tools/D2.png" width="200"> |
-| #6-32 Hex nuts             | B11 | 4 | <img src="../../images/components/screws/B11.png" width="70"> |
+| Item | Ref | Qty | Image |
+| ---- | --- | --- | ----- |
+| 0.5" Pillow Bearing Block  | S11 | 2 | ![](../../images/components/structural/S11.png) |
+| #6-32x1" Button Head Screw | B6 | 4 | ![](../../images/components/screws/B6.png) |
+| #6-32x1/4" Spacer          | T1 | 8 | ![](../../images/components/standoffs/T1.png) |
+| Allen Key Set              | D2 | | ![](../../images/components/tools/D2.png) |
+| #6-32 Hex nuts             | B11 | 4 | ![](../../images/components/screws/B11.png) |
 
 
 #### 4.2.1 Mount the pillow bearing blocks
 
 Using spacers **T1**, screws **B6**, and hex nut **B11**, mount the pillow blocks **S11** to the top of the body over the hole in the aluminum plate that you drilled earlier as shown in Figure 6.
 
-| <img src="../../images/body/Step_5_a.png" height="250"> <img src="../../images/body/Step_5_b.png" height="250">|
-|:-:|
+| ![](../../images/body/Step_5_a.png) ![](../../images/body/Step_5_b.png)|
+| --- |
 | Figure 6: Mounting the pillow bloc |
 
 ### 4.3 Control Board PCB
 
 | Item | Ref | Qty | Image |
-| :--- | :-- | :-- | :---: |
-| Assembled Control Board PCB | E1 | 1 | <img src="../../images/components/electronics/E1.png" width="250"> |
-| #6-32x3/8" Button Head Screw | B2 | 4 | <img src="../../images/components/screws/B1.png" width="70"> |
+| ---- | --- | --- | ----- |
+| Assembled Control Board PCB | E1 | 1 | ![](../../images/components/electronics/E1.png) |
+| #6-32x3/8" Button Head Screw | B2 | 4 | ![](../../images/components/screws/B1.png) |
 
 You may want to skip this step until the PCB is completed and tested and insert the PCB later.
 
@@ -149,8 +159,8 @@ You may want to skip this step until the PCB is completed and tested and insert 
 
 Mount the PCB **E1** to the top of the chassis using screws **B2**. Note the position of the PCB below.
 
-| <img src="../../images/body/body_5.png" height="300"> <img src="../../images/body/body_6.png" height="300">|
-|:-:|
+| ![](../../images/body/body_5.png) ![](../../images/body/body_6.png)|
+|---|
 | Figure 7: Mounting the PCB |
 
 | <img src="../../images/body/body_7A.png" height="300"> |
