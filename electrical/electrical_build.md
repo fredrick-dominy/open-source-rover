@@ -51,10 +51,9 @@ Control Board PCB | Custom Printed Circuit Board to manage power and data transm
 
 Part|Image |Part| Image
 ----|------|----|-----
-Heat Shrink Gun |<p align="center"> <img src="../images/electronics/tools/heat_gun.png"> </p> |Solder |<p align="center"> <img src="../images/electronics/tools/solder.png"> </p>
-Digital Mutimeter |<p align="center"> <img src="../images/electronics/tools/multimeter.png"> </p> |Solder Wick |<p align="center"> <img src="../images/electronics/tools/solder_wick.png"> </p>
-Soldering Iron |<p align="center"> <img src="../images/electronics/tools/soldering_iron.png"> </p> |Power Supply (optional) |<p align="center"> <img src="../images/electronics/tools/power_supply.png"> </p>
-
+Heat Shrink Gun | ![](../images/electronics/tools/heat_gun.png) |Solder |![](../images/electronics/tools/solder.png)
+Digital Mutimeter |![](../images/electronics/tools/multimeter.png) |Solder Wick |![](../images/electronics/tools/solder_wick.png)
+Soldering Iron | ![](../images/electronics/tools/soldering_iron.png) |Power Supply (optional) | ![](../images/electronics/tools/power_supply.png)
 
 
 This project assumes you have the tools shown in Figure 3. These will all be used in the construction and testing/debugging of this project. Most of these can be purchased inexpensively though DigiKey, Amazon, or other retailers.
@@ -104,7 +103,7 @@ This section will go through the process of powering each of the components from
 | The battery connectors will only fit together one way. That means you have to make sure your connections are correct the first time when soldering them in: make sure to verify this before connecting anything to the battery. |
 | The switch we use is a Single Pole - Single Throw switch. This means that either the two terminals are connected together in one switch position or there is a physical disconnect when the switch is in the other position. Make sure to test the switch and know which are its **ON** and **OFF** positions previous to connecting it to anything. An easy way to test the switch is to use the ’Diode’ setting on your Digital Multimeter (DMM). |
 | It is extremely important to plug the battery in the correct direction into the volt meter as well, as plugging it in backwards (even for an instant) could damage or destroy the volt meter.  |
-| :exclamation: :exclamation: :exclamation: Battery Safety :exclamation: :exclamation: :exclamation: |
+| !!!!!!!!!! **Battery Safety** !!!!!!!!!!!!!!!!!!! |
 
 
 Using the Tamiya connectors, connect the battery to the switch and then the volt meter according to Figure 4. The Tamiya connectors allow you to disconnect the battery from the rest of the system so you can recharge the battery.
@@ -113,9 +112,9 @@ Using the Tamiya connectors, connect the battery to the switch and then the volt
 
 Item | Ref | Qty | Image |Item | Ref | Qty | Image |
 ---- | --- | --- | ----- |---- | --- | --- | ----- |
-Battery | E36 | 1 | <p align="center"> ![electronics - E36](../images/components/electronics/E36.png) </p> |Tamiya Connectors| E35 | 1 | <p align="center"> ![electronics - E35](../images/components/electronics/E35.png) </p>
-16 AWG Wire (Black) | X2 | 1 | <p align="center"> ![wiring - X2](../images/components/wiring/X2.png) </p> |16 AWG Wire (Red) | X1 | 1 |  <p align="center"> ![wiring - X1](../images/components/wiring/X1.png) </p>
-Battery Charger | E41 | 1 | <p align="center"> ![electronics - E41](../images/components/electronics/E41.png)</p>
+Battery | E36 | 1 |  ![electronics - E36](../images/components/electronics/E36.png) |Tamiya Connectors| E35 | 1 |  ![electronics - E35](../images/components/electronics/E35.png)
+16 AWG Wire (Black) | X2 | 1 |  ![wiring - X2](../images/components/wiring/X2.png) |16 AWG Wire (Red) | X1 | 1 |   ![wiring - X1](../images/components/wiring/X1.png)
+Battery Charger | E41 | 1 |  ![electronics - E41](../images/components/electronics/E41.png)
 
 ![Battery and board connections](../images/electronics/battery_wiring.png)
 
@@ -124,9 +123,10 @@ Battery Charger | E41 | 1 | <p align="center"> ![electronics - E41](../images/co
 ## 2.2. Powering the LED Screen
 
 **Table 4. Necessary Parts**
+
 Item | Ref | Qty | Image |Item | Ref | Qty | Image |
 ---- | --- | --- | ----- |---- | --- | --- | ----- |
-LED Screen/Assembled Head | NA | 1 | <p align="center"> ![electronics - E37](../images/components/electronics/E37.png) </p> |4 Pin Molex Connector | E50 | 1 | <p align="center"> ![electronics - E50](../images/components/electronics/E50.png) </p>
+LED Screen/Assembled Head | NA | 1 | ![electronics - E37](../images/components/electronics/E37.png) |4 Pin Molex Connector | E50 | 1 | ![electronics - E50](../images/components/electronics/E50.png)
 
 Using The 4 Pin molex Cable that comes with the LED matrix, connect the LED matrix to the 5V output from the Arduino PCB mounted inside the Head assembly.
 
@@ -141,9 +141,9 @@ Next, we will next plug in all the cables that allow the various devices to comm
 
 Item | Ref | Qty | Image |Item | Ref | Qty | Image 
 ---- | --- | --- | ----- |---- | --- | --- | ----- 
-Rectangular 6P 1x6 Jumper Cable | E26 | 1 | <p align="center"> ![electronics - E26](../images/components/electronics/E26.png) </p>| USB Power Cable | E28 | 1| <p align="center"> ![electronics - E28](../images/components/electronics/E28.png) </p>
-Rectangular 40P 2x20 Ribbon Cable | E29 | 1 | <p align="center"> ![electronics - E29](../images/components/electronics/E29.png) </p>| Rectangular 16P Ribbon Cable | E30 | 1| <p align="center"> ![electronics - E30](../images/components/electronics/E30.png) </p>
- USB to TTL Serial Adapter | E48 | 1| <p align="center"> ![electronics - E48](../images/components/electronics/E48.png) </p>
+Rectangular 6P 1x6 Jumper Cable | E26 | 1 |  ![electronics - E26](../images/components/electronics/E26.png) | USB Power Cable | E28 | 1|  ![electronics - E28](../images/components/electronics/E28.png) 
+Rectangular 40P 2x20 Ribbon Cable | E29 | 1 |  ![electronics - E29](../images/components/electronics/E29.png) | Rectangular 16P Ribbon Cable | E30 | 1|  ![electronics - E30](../images/components/electronics/E30.png) 
+ USB to TTL Serial Adapter | E48 | 1|  ![electronics - E48](../images/components/electronics/E48.png) 
  
 
  

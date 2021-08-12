@@ -157,7 +157,7 @@ If you are getting encoder values of close to 2000 and the value stays above 200
 (g) Enter your Min and Max encoder values for each M1 and M2 motor. We add a buffer of at least 5 encoder ticks to avoid driving the motors all the way into the hard stop; In other words, we’ll impose a software ’soft stop’
 
 ![](../images/calibration/is11.png)  
-     **Figure 10**
+**Figure 10**
      
 (h) Change the Autotune type to **PD** and then tune the M1 and M2 motors by clicking the ’Tune M1’ and ’Tune M2’ buttons. We’ve found that this autotuning process is more successful if you run it with the wheels down on a smooth surface, but still supporting the weight of the robot.
 
