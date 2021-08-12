@@ -96,17 +96,18 @@ We are changing documentation from LaTeX to MarkDown to facilitate contributions
 ---
 
 ### Online 3D Model
-<img src="images/onshape/rover.png" width="100%"/>
-<p><img src="images/onshape/body.png" width="32%"/>
-<img src="images/onshape/rocker-bogie.png" width="32%"/>
-<img src="images/onshape/pcb.png" width="32%"/></p>
+
+| | |
+| --- | --- |
+| ![](images/onshape/rover.png) | ![](images/onshape/body.png) |
+| ![](images/onshape/rocker-bogie.png) | ![](images/onshape/pcb.png) |
 
 There is also an [Onshape model of the Open Source Rover](https://cad.onshape.com/documents/5c358484057fc4c01d5e5803/w/bdf583acdf29d75695be5fbc/e/e3eb7193ecdec5b0a710978b). The model includes the state of the rover at each individual step throughout our build instructions! Therefore, you should be able to reference the online 3D model in addition to the photos in the build instructions as you are building to ensure your build is going well. NOTE: The most updated model and single source of truth are the SolidWorks assemblies and the OnShape model may be out of date.
 
----
 
-### Rover Mission Patch ###
-<a href = "https://github.com/lschooley/open-source-rover-mission-patch"> <img src="images/patch.png" width="25%"> </a>
+| ### Rover Mission Patch ### |
+| --- |
+| ![](images/patch.png) |
 
 Thank you to Lauren Schooley for creating a mission patch for the project. The patch is free for use as a team patch, for stickers, or decorating your rover. The design is released under the Creative Commons Attribution-NoDerivatives public license. A variety of file formats is available.
 

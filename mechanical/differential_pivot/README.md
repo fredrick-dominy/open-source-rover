@@ -4,7 +4,7 @@ The Differential Pivot helps to offload forces from one side of the rover to the
 
 ## Picture
 
-![Differential Pivot](/images/differential_pivot/Differential_Pivot.png) 
+![Differential Pivot](../../images/differential_pivot/Differential_Pivot.png) 
 
 ## 1. Features 
 
@@ -38,32 +38,33 @@ The Differential Pivot helps to offload forces from one side of the rover to the
    Parts/Tools Necessary
 
    | Item | Ref | Qty | Image |
-   | :--- | :-- | :-- | :---: |
-   | 0.5" x 3' Aluminum Tube | S16 | 1 | <img src="/images/components/structural/S16.png" width="25%">|
-   | 0.5" x 4" Aluminum Tube | S18 | 4 | <img src="/images/components/structural/S18.png" width="25%"> |
-   | Metal Hacksaw or Bandsaw | D4 | 1  |  <img src="/images/components/tools/D4.png" width="25%"> |
-   | Vice clamp or C clamps | D5 | 1 |  <img src="/images/components/tools/D5.png" width="25%">|
+   | --- | --- | --- | --- |
+   | 0.5" x 3' Aluminum Tube | S16 | 1 | ![](../../images/components/structural/S16.png) |
+   | 0.5" x 4" Aluminum Tube | S18 | 4 | ![](../../images/components/structural/S18.png)  |
+   | Metal Hacksaw or Bandsaw | D4 | 1  |  ![](../../images/components/tools/D4.png)  |
+   | Vice clamp or C clamps | D5 | 1 |  ![](../../images/components/tools/D5.png) |
 
    1. Take the 3 foot piece of 0.5 inch aluminum rod **S16** and cut it into one 15 inch piece and one 13.5 inch piece. These will now be referred to as the parts **S16A** and **S16B** respectively. In addition, take two of the 4 inch aluminum rods **S18** and cut them down to 3 inches in length as well.
 
    <br/><br/>
 
-   | <img src="/images/differential_pivot/15inch_cut.png" width="60%"> | <img src="/images/differential_pivot/3inch_cut.png" width="100%">|
-   |:-:|:-:|
+   | ![](../../images/differential_pivot/15inch_cut.png) | ![](../../images/differential_pivot/3inch_cut.png)|
+   | --- | --- |
    | Figure 1| Figure 2 |
 
    <br/><br/>
 
 ### 3.2 Aluminum Rods: Drilling
    Parts/Tools Necessary
+
    | Item | Ref | Qty | Image |
-   | :--- | :-- | :-- | :---: |
-   | 0.5" x 13.5" Aluminum Tube (Modified) | S16B | 1 |<img src="/images/components/structural/S16.png" width="25%">|
-   | 0.5" x 3" Aluminum Tube (Modified) | S18A | 2 | <img src="/images/components/structural/S16.png" width="25%">|
-   | Hand Drill or drill press | D3 | 1 |<img src="/images/components/tools/D3.png" width="25%"> |
-   | Drill bit #23 | D6 | 1 | <img src="/images/components/tools/D6.png" width="25%"> |
-   | Center punch or start drill bit | D7 | 1 | <img src="/images/components/tools/D7.png" width="25%">  |
-   | Vice or V-clamp | D8 | 1 |<img src="/images/components/tools/D8.png" width="25%">  | 
+   | --- | --- | --- | --- |
+   | 0.5" x 13.5" Aluminum Tube (Modified) | S16B | 1 | ![](../../images/components/structural/S16.png) |
+   | 0.5" x 3" Aluminum Tube (Modified) | S18A | 2 |  ![](../../images/components/structural/S16.png) |
+   | Hand Drill or drill press | D3 | 1 | ![](../../images/components/tools/D3.png)  |
+   | Drill bit #23 | D6 | 1 |  ![](../../images/components/tools/D6.png)  |
+   | Center punch or start drill bit | D7 | 1 |  ![](../../images/components/tools/D7.png)   |
+   | Vice or V-clamp | D8 | 1 | ![](../../images/components/tools/D8.png)   | 
 
 
    The turnbuckles must be attached to the differential pivot and rocker-bogie arm. We will accomplish this by drilling holes in the aluminum beam S16B and attaching two 5-hole aluminum bars on each side.
@@ -74,8 +75,8 @@ The Differential Pivot helps to offload forces from one side of the rover to the
 
    <br/><br/>
 
-   | <img src="/images/differential_pivot/Differential_Pivot_Cut.png" width="100%"> |
-   | :--: |
+   | ![](../../images/differential_pivot/Differential_Pivot_Cut.png)|
+   | --- |
    | Figure 3 |
 
 
@@ -86,8 +87,8 @@ The Differential Pivot helps to offload forces from one side of the rover to the
 
    <br/><br/>
 
-   | <img src="/images/differential_pivot/Differential_Align.png" width="100%"> |
-   | :--: |
+   | ![](../../images/differential_pivot/Differential_Align.png) |
+   | --- |
    | Figure 4 |
 
    <br/><br/>
@@ -97,8 +98,8 @@ The Differential Pivot helps to offload forces from one side of the rover to the
 
   <br/><br/>
 
-  | <img src="/images/differential_pivot/Differential_Standoff_Cut.png" width="100%"> |
-  | :--: |
+  | ![](../../images/differential_pivot/Differential_Standoff_Cut.png) |
+  | --- |
   | Figure 5 |
 
   <br/><br/>
@@ -106,16 +107,23 @@ The Differential Pivot helps to offload forces from one side of the rover to the
 ## 4. Mechanical Assembly
   Parts/Tools Necessary
 
-  | Item | Ref | Qty | Image | Item | Ref | Qty | Image|
-  | :--- | :-- | :-- | :---: | :--- | :-- | :-- | :--: |
-  | Single Pattern Bracket | S8 | 1 | <img src="/images/components/structural/S16.png" width="30%"> | #6-32x1.25" Button Head Screw | B7 | 8 |<img src="/images/components/screws/B7.png" width="100%"> |
-  | 0.5" Circular Clamping Hub | S13 | 1 | <img src="/images/components/structural/S13.png" width="30%">| #4-40x1.25" Button Head Screw | B9 | 4 | <img src="/images/components/screws/B9.png" width="100%"> |
-  | 0.5" x 13.5" Aluminum Tube (Modified) | S16B | 1 |<img src="/images/components/structural/S16B.png" width="30%">| #6-32 Hex nut | B11 | 8 | <img src="/images/components/screws/B11.png" width="100%"> |
-  | 0.5" x 3" Aluminum Tube (Modified) | S18B | 2 | <img src="/images/components/structural/S18B.png" width="30%">| #4-40 Hex nut | B12 | 4 | <img src="/images/components/screws/B12.png" width="100%"> |
-  | 0.5" Bottom Bore Clamp | S20 | 2 | <img src="/images/components/structural/S20.png" width="15%">| #4-40 Washer | W2 | 24 | <img src="/images/components/washers/W2.png" width="100%"> | 
-  | 5 Hole Aluminum Beam | S21 | 8 | <img src="/images/components/structural/S21.png" width="15%">| Wrench Set | D1 | 1 | <img src="/images/components/tools/D1.png" width="100%"> |
-  | RC Turnbuckle | S32 | 2 |<img src="/images/components/structural/S32.png" width="15%">|  Allen Key Set | D2 | 1 | <img src="/images/components/tools/D2.png" width="100%"> |
-  | #6-32x1/4" Button Head Screw | B1 | 8 | <img src="/images/components/screws/B1.png" width="30%"> | | | | | 
+  | Item | Ref | Qty | Image |
+  | --- | --- | --- | --- |
+  | Single Pattern Bracket | S8 | 1 | ![](../../images/components/structural/S16.png) |
+  | #6-32x1.25" Button Head Screw | B7 | 8 |![](../../images/components/screws/B7.png) |
+  | 0.5" Circular Clamping Hub | S13 | 1 | ![](../../images/components/structural/S13.png)|
+  | #4-40x1.25" Button Head Screw | B9 | 4 | ![](../../images/components/screws/B9.png) |
+  | 0.5" x 13.5" Aluminum Tube (Modified) | S16B | 1 |![](../../images/components/structural/S16B.png)|
+  | #6-32 Hex nut | B11 | 8 | ![](../../images/components/screws/B11.png) |
+  | 0.5" x 3" Aluminum Tube (Modified) | S18B | 2 | ![](../../images/components/structural/S18B.png)|
+  | #4-40 Hex nut | B12 | 4 | ![](../../images/components/screws/B12.png) |
+  | 0.5" Bottom Bore Clamp | S20 | 2 | ![](../../images/components/structural/S20.png)|
+  | #4-40 Washer | W2 | 24 | ![](../../images/components/washers/W2.png) | 
+  | 5 Hole Aluminum Beam | S21 | 8 | ![](../../images/components/structural/S21.png)|
+  | Wrench Set | D1 | 1 | ![](../../images/components/tools/D1.png) |
+  | RC Turnbuckle | S32 | 2 |![](../../images/components/structural/S32.png)|
+  |  Allen Key Set | D2 | 1 | ![](../../images/components/tools/D2.png) |
+  | #6-32x1/4" Button Head Screw | B1 | 8 | ![](../../images/components/screws/B1.png) | 
 
 ### 4.1 Build the Differential pivot block
 ### 4.1.1 Build clamping hub assembly
@@ -123,8 +131,8 @@ The Differential Pivot helps to offload forces from one side of the rover to the
 
    <br/><br/>
    
-  | <img src="/images/differential_pivot/Diff_Step_1.png" width="100%"> | <img src="/images/differential_pivot/Diff_Step_2.png" width="70%">|
-  |:-:|:-:|
+  | ![](../../images/differential_pivot/Diff_Step_1.png) | ![](../../images/differential_pivot/Diff_Step_2.png)|
+  | --- | --- |
   | Figure 6| Figure 7 |
 
 
@@ -136,8 +144,8 @@ The Differential Pivot helps to offload forces from one side of the rover to the
 
    <br/><br/>
 
-  | <img src="/images/differential_pivot/Diff_Step_3.png" width="80%"> | <img src="/images/differential_pivot/Diff_Step_4.png" width="100%">|
-  |:-:|:-:|
+  | ![](../../images/differential_pivot/Diff_Step_3.png) | ![](../../images/differential_pivot/Diff_Step_4.png)|
+  |---|---|
   | Figure 8 | Figure 9 |
 
    <br/><br/>
@@ -147,8 +155,8 @@ The Differential Pivot helps to offload forces from one side of the rover to the
 
    <br/><br/>
 
-  | <img src="/images/differential_pivot/Diff_Step_5.png" width="100%">| <img src="/images/differential_pivot/Diff_Step_6.png" width="90%">|
-  |:-:|:-:|
+  | ![](../../images/differential_pivot/Diff_Step_5.png)| ![](../../images/differential_pivot/Diff_Step_6.png)|
+  |---|---|
   | Figure 8 | Figure 9 |
 
    <br/><br/>
@@ -158,8 +166,8 @@ The Differential Pivot helps to offload forces from one side of the rover to the
 
    <br/><br/>
 
-  | <img src="/images/differential_pivot/Diff_Step_7.png" width="100%"> |
-  | :--: |
+  | ![](../../images/differential_pivot/Diff_Step_7.png) |
+  | --- |
   | Figure 10 |
 
    <br/><br/>

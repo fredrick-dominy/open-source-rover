@@ -52,18 +52,16 @@ The Rocker-Bogie is the suspension system that enables the rover to climb aggres
 On piece **S2**, measure the distance shown in Figure 1 from the edge and mark a straight line from the opposite corner to that point. Cut off the corner along that line. We use this piece to make the geometry of the rocker-bogie more structurally reinforced across its lateral bending moment. However, these channels will need to have their corners cut out because of clearance issues further on. In total, you will need 4 of these modified pieces. Cut those now.
 
 | ![](../../images/rocker_bogie/channel_cut.png) ![](../../images/rocker_bogie/3_inch_channel.png) |
-
-|:-:|
-| Figure 1: Channel Cutting Dimensions |
+|--- |
+| **Figure 1:** Channel Cutting Dimensions |
 
 ### 3.2 Cutting the Aluminum Rod
 
 Take the 4 inch aluminum rod **S18** and cut it down to 3 inches long, indicated by Figure 2. These cuts keep the rod from sticking out too far from either end of the rocker-bogie pivot joint. In total, you will need 2 of these 3-inch aluminum rods. Cut those now.
 
 | ![](../../images/rocker_bogie/rod_cut.png) |
-
-|:-:|
-| Figure 2: Aluminum Rod cutting dimensions |
+| --- |
+| **Figure 2:** Aluminum Rod cutting dimensions |
 
 ## 4. Mechanical/structural Assembly
 
@@ -95,8 +93,7 @@ Attach 9 inch channel **S5** and the a modified 3 inch channel **S2A** to patter
 | image 1 | image 2 | image 3 |
 | --- | --- | --- |
 | ![](../../images/rocker_bogie/step_1.png) | ![](../../images/rocker_bogie/step_1a.png) | ![](../../images/rocker_bogie/step_2.png) |
-
-Figure 3: Begin the Rocker attachment
+**Figure 3:** Begin the Rocker attachment
 
 ### 4.2 Start the bogie pivot joint
 
@@ -105,8 +102,7 @@ Put rod **S18A** though the last hole in the pattern F bracket. Then,  assemble 
 | image 1 | image 2 |
 | --- | --- |
 | ![](../../images/rocker_bogie/step_3.png) | ![](../../images/rocker_bogie/step_4.png) |
-
-Figure 4: Start Rocker-Bogie pivot joint
+**Figure 4:** Start Rocker-Bogie pivot joint
 
 ### 4.3 Attachment for Front Corner
 
@@ -115,9 +111,7 @@ Attach 3.75 inch channel **S3** to the top hole of the pattern F bracket using s
 | image 1 | image 2 |
 | --- | --- |
 | ![](../../images/rocker_bogie/step_5.png) | ![](../../images/rocker_bogie/step_6.png) |
-
-|:-:|
-| Figure 5: Attaching channel to corner steering |
+**Figure 5:** Attaching channel to corner steering
 
 ### 4.4 Attachment for middle Wheel 
 
@@ -126,9 +120,7 @@ Attach another 3.75 inch channel **S3** to the bottom hole of the pattern F brac
 | image 1 | image 2 |
 | --- | --- |
 | ![](../../images/rocker_bogie/step_8.png) | ![](../../images/rocker_bogie/step_9.png) |
-
-|:-:|
-| Figure 6: Attachment for middle wheel |
+**Figure 6:** Attachment for middle wheel
 
 ### 4.5 Opposite edge of Rocker-Bogie Joint
 
@@ -137,9 +129,7 @@ Attach another Pattern F bracket **S7** to the opposite side of the channels usi
 | image 1 | image 2 |
 | --- | --- |
 | ![](../../images/rocker_bogie/step_9a.png) | ![](../../images/rocker_bogie/step_9b.png) |
-
-|:-:|
-| Figure 7: Start the other side of Rocker-Bogie joint|
+**Figure 7:** Start the other side of Rocker-Bogie joint
 
 ### 4.6 Other edge of Rocker-Bogie Joint (2)
 
@@ -148,9 +138,7 @@ Using washers **W1**, collar clamp **S22**,  spacers **T1**, and screws **B10** 
 | image 1 | image 2 |
 | --- | --- |
 | ![](../../images/rocker_bogie/step_10.png) | ![](../../images/rocker_bogie/step_11.png) |
-
-|:-:|
-| Figure 8: Other edge of Rocker-Bogie joint |
+**Figure 8:** Other edge of Rocker-Bogie joint
 
 ### 4.7 Checkpoint
 
@@ -159,9 +147,7 @@ At this point your rocker bogie joint should look like Figure 9.
 | image 1 | image 2 |
 | --- | --- |
 | ![](../../images/rocker_bogie/final_1.png) | ![](../../images/rocker_bogie/final_2.png) |
-
-|:-:|
-| Figure 9: Rocker-Bogie Checkpoint |
+**Figure 9:** Rocker-Bogie Checkpoint
 
 ### 4.8 Attach Bearing Blocks
 
@@ -170,9 +156,8 @@ Attach two Pillow Bearing Blocks **S11** using screws **B2** and hex huts **B11*
 | image 1 | image 2 |
 | --- | --- |
 | ![](../../images/rocker_bogie/step_13.png) | ![](../../images/rocker_bogie/step_14.png) |
+**Figure 10:** Pillow bearing block attachment
 
-|:-:|
-| Figure 10: Pillow bearing block attachment|
 
 ### 4.9 Attach Clamping Hub
 
@@ -181,15 +166,11 @@ Attach the Clamping Hub **S13** using screws **B2** as shown in Figure 11. The c
 | image 1 | image 2 |
 | --- | --- |
 | ![](../../images/rocker_bogie/step_15.png) | ![](../../images/rocker_bogie/step_16.png) |
+**Figure 11:** Clamping hub attachment
 
-|:-:|
-| Figure 11: Clamping hub attachment |
 
 Your rocker-bogie suspension joint is now complete!  Repeat all of section 2 in this document to create the suspension for the other side of the rover.
 
-| image 1 |
-| --- |
 | ![](../../images/rocker_bogie/rb_final.png) |
-
-|:-:|
-| Figure 12: Finished Rocker-Bogie |
+| --- |
+| **Figure 12:** Finished Rocker-Bogie |
